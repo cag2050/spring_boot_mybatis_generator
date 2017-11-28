@@ -1,5 +1,7 @@
 * Spring initializr 向导创建的项目（选择了 Web、MySQL、MyBatis、DevTools模块，pom.xml中配置了mybatis-generator-maven-plugin）
 
+* generator配置文件的名字必须是：generatorConfig.xml，插件会找这个名字的文件。
+
 ### mysql数据库需要做的操作
 1. mysql中新建数据库(schema):mybatis
 2. 执行创建table usertest和插入数据的操作：
